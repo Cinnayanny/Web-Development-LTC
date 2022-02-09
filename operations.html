@@ -14,10 +14,10 @@
 </form>
 <script>
     function check(form) {
-        if (<!-- Update this condition -->) {
+        if (form.userid.value == 'admin' && form.pwd.value == 'admin') {
             window.open('README.md')
         } else {
-            alert('Error Password or Username')/*displays error message*/
+            alert('Username or Password is incorrect')/*displays error message*/
         }
     }
 </script>
