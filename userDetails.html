@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script>
+    function dataCode() {
+      let userDetails = {
+        userName: "user is cool",
+        password: "userpass cool",
+        fullName: "cool dude",
+        email: "cooldude@lmaomail.com",
+      }
+      userDetails["userName"] = prompt("Type in Username");
+      userDetails["password"] = prompt("Type in Password");
+      userDetails["fullName"] = prompt("Type in Full Name");
+      userDetails["email"] = prompt("Type in Email");
+      var details = userDetails["userName"] + " " + userDetails["password"] + " " + userDetails["fullName"] + " " + userDetails["email"];
+      alert(details);
+    }
+  </script>
+  <title>Data Structures Code</title>
+</head>
+<body>
+
+<h1>Data Structures - Web Development</h1>
+
+<p id="outputPosition"></p>
+
+<form name="dataForm">
+  <button onclick="dataCode()" type="button">Run Data Structures Code</button>
+</form>
+
+
+</body>
+</html>
